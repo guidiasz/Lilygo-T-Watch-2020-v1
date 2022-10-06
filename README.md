@@ -73,6 +73,7 @@ https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/blob/main/TWatch_framework_0.
 - https://www.instructables.com/Lilygo-T-Watch-2020-Arduino-Framework/ ;
 - Manual do produto.
 
-
+## Adcionando apps no relogio:
+https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/blob/main/novo-app.md
 
 
