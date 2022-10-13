@@ -45,7 +45,7 @@ Acesse **Sketch > Include Library > Add ZIP Library** e selecione o .zip baixado
 
 ## Passo 9:
 Baixe o zip a seguir e extraia ele. 
-https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/blob/main/TWatch_framework_0.zip
+https://codeload.github.com/guidiasz/Lilygo-T-Watch-2020-v1/zip/refs/heads/main
 
 ## Passo 10:
  Acesse **File > Open**. Na que você acabou de extrair, selecione o arquivo **TWatch_framework_0.ino** e clique em abrir.
