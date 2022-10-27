@@ -56,7 +56,7 @@ void loop() {
       case 0:              // Zero is the clock, just exit the switch
         break;
       case 1:
-        jSats();
+        colorMemory();
         break;
       case 2:
         appAccel();
