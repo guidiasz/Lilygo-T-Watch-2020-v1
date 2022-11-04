@@ -76,4 +76,10 @@ https://codeload.github.com/guidiasz/Lilygo-T-Watch-2020-v1/zip/refs/heads/main
 ## Adcionando apps no relogio:
 https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/blob/main/novo-app.md
 
+## Primeiros passos com BLE (Bluetooth Low Energy):
+https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/tree/main/apps-individuais/detectorBLE
+
+## Reproduzindo imagens, som e vibração:
+https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/tree/main/apps-individuais/appHalloween
+
 
