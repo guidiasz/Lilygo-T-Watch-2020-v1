@@ -62,16 +62,19 @@ void loop() {
         appAccel();
         break;
       case 3:
-        appBattery();
+        detectorBLE();
         break;
       case 4:
-        appTouch();
+        appHalloween();
         break;
       case 5:
         appSetTime();
         break;
       case 6:
         appGenius();
+        break;
+      case 7:
+        appGeniusBLE();
         break;
     }
     displayTime(true);

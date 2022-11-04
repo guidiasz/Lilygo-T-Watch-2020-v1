@@ -9,7 +9,7 @@
 
 const int maxApp = 11;  // number of apps
 
-String appName[maxApp] = {"Clock", "Color Memory", "Accel", "Battery", "Touch", "Set Time", "Genius", "Motor", "Temp", "Int Time", "Exper"};  // app names
+String appName[maxApp] = {"Clock", "Color Memory", "Accel", "BLE Scan", "Halloween", "Set Time", "Genius", "GeniusBLE", "Temp", "Int Time", "Exper"};  // app names
 
 uint8_t modeMenu() {
   int mSelect = 0;  // The currently highlighted app

@@ -20,9 +20,6 @@ AudioGeneratorMP3 *mp3;
 // --- Image ---
 #include "./appHalloween/exorcista.h"
 
-// --- Funcoes assincronas ---
-#include <AsyncTimer.h>  //https://github.com/Aasim-A/AsyncTimer
-
 void playAudio() {
   AudioFileSourcePROGMEM *file;
   AudioOutputI2S *out;
@@ -30,7 +27,7 @@ void playAudio() {
   //! Turn on the audio power
   ttgo->enableLDO3();
 
-  file = new AudioFileSourcePROGMEM(image, sizeof(image));
+  file = new AudioFileSourcePROGMEM(susto, sizeof(susto));
   id3 = new AudioFileSourceID3(file);
 
 #if defined(STANDARD_BACKPLANE)
@@ -44,17 +41,12 @@ void playAudio() {
   mp3->begin(id3, out);
 }
 
-void vibrate() {
-  ttgo->motor->onec();
-}
 void displayImage() {
   ttgo->tft->setSwapBytes(true);
   ttgo->tft->pushImage(0, 0, 240, 240, exorcista);
 }
 
 void appHalloween() {
-  AsyncTimer t;
-
   int16_t x, y;
 
   Serial.begin(115200);
@@ -66,21 +58,21 @@ void appHalloween() {
   playAudio();
   displayImage();
 
-  /*vibracao*/
   ttgo->motor_begin();
-  for (int delayTime = 200; delayTime <= 1000; delayTime += 200) {
-    t.setTimeout(vibrate, delayTime);  // chama a funcao vibrate de forma assincrona com timer em milessegundos
-  }
 
   while (!ttgo->getTouch(x, y)) {
-    t.handle();
     if (mp3->isRunning()) {
-      if (!mp3->loop()) mp3->stop();
-    } else {
-      ttgo->tft->setTextSize(2);
-      ttgo->tft->setTextColor(TFT_YELLOW, TFT_BLACK);
-      ttgo->tft->setCursor(16, 16);
-      ttgo->tft->println("Feliz Halloween :D");
+      ttgo->motor->onec();  // comando que faz o relogio vibrar
+      if (!mp3->loop()) {
+        mp3->stop();
+        // O código que for colocado a seguir só será executado quando terminar a reprodução do áudio
+        ttgo->tft->setTextSize(2);
+        ttgo->tft->setTextColor(TFT_YELLOW, TFT_BLACK);
+        ttgo->tft->setCursor(16, 16);
+        ttgo->tft->println("Feliz Halloween :D");
+      }
+    } else {  // o código abaixo é executado somente se nenhum áudio está sendo executado
+      delay(500);
     }
   }
   while (ttgo->getTouch(x, y)) {
