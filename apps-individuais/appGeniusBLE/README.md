@@ -1,4 +1,4 @@
-##Comandando o App pelo celular
+## Comandando o App pelo celular
 - No relógio, abra o geniusBLE;
 - No celular, baixe o aplicativo [nRF Connect](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp&hl=pt_BR&gl=US);
 - Baixe também [esse arquivo](https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/blob/main/apps-individuais/appGeniusBLE/Genius.xml) e coloque o na raiz do seu celular 
