@@ -73,11 +73,14 @@ https://codeload.github.com/guidiasz/Lilygo-T-Watch-2020-v1/zip/refs/heads/main
 - https://www.instructables.com/Lilygo-T-Watch-2020-Arduino-Framework/ ;
 - Manual do produto.
 
-## Adcionando apps no relogio:
+## Adicionando apps no relogio:
 https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/blob/main/novo-app.md
 
 ## Primeiros passos com BLE (Bluetooth Low Energy):
 https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/tree/main/apps-individuais/detectorBLE
+
+## Controlando aplicativos com BLE:
+https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/tree/main/apps-individuais/appGeniusBLE
 
 ## Reproduzindo imagens, som e vibração:
 https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/tree/main/apps-individuais/appHalloween
