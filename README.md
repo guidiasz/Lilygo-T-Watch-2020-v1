@@ -85,4 +85,5 @@ https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/tree/main/apps-individuais/ap
 ## Reproduzindo imagens, som e vibração:
 https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/tree/main/apps-individuais/appHalloween
 
-
+## Compartilhando valores do acelerômetro via MQTT e visualizando com o Collab:
+https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/tree/main/apps-individuais/mqtt
