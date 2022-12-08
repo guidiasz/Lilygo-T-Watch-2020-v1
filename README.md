@@ -79,8 +79,11 @@ https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/blob/main/novo-app.md
 ## Primeiros passos com BLE (Bluetooth Low Energy):
 https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/tree/main/apps-individuais/detectorBLE
 
-## Controlando aplicativos com BLE:
+## Controlando aplicativos do relógio pelo celular com BLE:
 https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/tree/main/apps-individuais/appGeniusBLE
+
+## Controlando outros dispositivos pelo relógio com BLE:
+https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/tree/main/apps-individuais/buttonBLE
 
 ## Reproduzindo imagens, som e vibração:
 https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/tree/main/apps-individuais/appHalloween
