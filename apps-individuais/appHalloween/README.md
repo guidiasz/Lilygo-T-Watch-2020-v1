@@ -64,7 +64,7 @@ void playAudio() {
 #if defined(STANDARD_BACKPLANE)
   out = new AudioOutputI2S(0, 1);
 #elif defined(EXTERNAL_DAC_BACKPLANE)
-  out = new AudioOutputI2S();
+https://raw.githubusercontent.com/guidiasz/Lilygo-T-Watch-2020-v1/main/apps-individuais/appHalloween/demo.jpeg  out = new AudioOutputI2S();
   // External DAC decoding
   out->SetPinout(TWATCH_DAC_IIS_BCK, TWATCH_DAC_IIS_WS, TWATCH_DAC_IIS_DOUT);
 #endif
@@ -131,4 +131,4 @@ void loop() {
 Resultado esperado:
 
 
-![image](https://raw.githubusercontent.com/guidiasz/Lilygo-T-Watch-2020-v1/main/apps-individuais/appHalloween/exorcista.jpg)
+![image](https://raw.githubusercontent.com/guidiasz/Lilygo-T-Watch-2020-v1/main/apps-individuais/appHalloween/demo.jpeg)
