@@ -127,3 +127,8 @@ void loop() {
   }
 }
 ```
+
+Resultado esperado:
+
+
+![image](https://raw.githubusercontent.com/guidiasz/Lilygo-T-Watch-2020-v1/main/apps-individuais/appHalloween/exorcista.jpg)
