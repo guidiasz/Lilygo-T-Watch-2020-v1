@@ -73,6 +73,16 @@ https://codeload.github.com/guidiasz/Lilygo-T-Watch-2020-v1/zip/refs/heads/main
 - https://www.instructables.com/Lilygo-T-Watch-2020-Arduino-Framework/ ;
 - Manual do produto.
 
+## Mapa dos Apps:
+- [Color Memory](https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/blob/main/apps-individuais/appColorMemory/appColorMemory.ino "Color Memory");
+- [Direção do acelerômetro](https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/blob/main/TWatch_framework_0/appAccel.ino "Direção do acelerômetro");
+- [Detector BLE](https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/tree/main/apps-individuais/detectorBLE "Detector BLE");
+- [Halloween](https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/tree/main/apps-individuais/appHalloween "Halloween"); 
+- [Genius](https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/blob/main/TWatch_framework_0/appGenius.ino "Genius");
+- [Genius BLE](https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/blob/main/TWatch_framework_0/appGenius.ino "Genius BLE");
+- [Button BLE](https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/tree/main/apps-individuais/buttonBLE "Button BLE") (Controlando outros dispositivos pelo relógio com BLE);
+- [MQTT](https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/tree/main/apps-individuais/mqtt "MQTT")(Compartilha valores do acelerômetro via MQTT ).
+
 ## Adicionando apps no relogio:
 https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/blob/main/novo-app.md
 
