@@ -1,3 +1,4 @@
+//demo: https://raw.githubusercontent.com/guidiasz/Lilygo-T-Watch-2020-v1/main/imagens/accel.mp4
 // Show the accelerometer working
 
 void appAccel() {
