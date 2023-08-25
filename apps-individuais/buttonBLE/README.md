@@ -4,7 +4,9 @@ No celular, baixe e abra o aplicativo [nRF Connect](https://play.google.com/stor
 Siga os passos do vídeo abaixo:
 
 
-https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/assets/38039567/c5556ddd-cb31-469b-a4d9-aee8c343fab8
+
+https://github.com/guidiasz/Lilygo-T-Watch-2020-v1/assets/38039567/26ecbb95-3249-4db2-9127-801e8ec243d8
+
 
 
 
